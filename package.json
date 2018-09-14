@@ -1,0 +1,23 @@
+{
+  "name": "callbags-utahjs",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lund0n/callbags-utahjs",
+  "private": true,
+  "dependencies": {
+    "callbag-basics": "^3.0.0",
+    "callbag-start-with": "^3.1.0",
+    "gh-pages": "^1.2.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "rxjs": "^6.2.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
